@@ -1,0 +1,49 @@
+.message{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 60%;
+    margin: 10px auto;
+    transition-duration:1s ;
+
+}
+
+.message .title .closeButton{
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.message .title .closeButton:hover{
+    color:black ;
+}
+.message .title{
+    display: block;
+    padding: 5px;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+.message .detail{
+    display: block;
+    padding: 10px;
+    color: #eee;
+}
+
+.error .title{
+    background-color: red;
+}
+.error .detail{
+    background-color: darkred;
+}
+.warning .title{
+    background-color: green;
+}
+.warning .detail{
+    background-color: yellowgreen;
+}
+.information .title{
+    background-color: blue;
+}
+.information .detail{
+    background-color: darkblue;
+}
